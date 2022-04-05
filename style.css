@@ -1,0 +1,40 @@
+body
+{
+    text-align: center;
+}
+
+#app {
+    background-color: aliceblue;
+}
+
+
+
+body{
+    background: linear-gradient(#fcd703 0%, #D500F9 100%);
+    font-family: cursive;
+    color: black;
+    text-align: center;
+}
+.List{
+    list-style: none;
+    float: left;
+    padding-top: 5px ;
+    padding-bottom:5px ;
+    padding-left:10px ;
+    padding-right: 10px; 
+    font-family: fantasy;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Menu{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    background-color: black;
+}
+.List:hover{
+    background-color:beige;
+}
+
